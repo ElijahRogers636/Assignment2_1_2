@@ -10,21 +10,29 @@
             HouseCat houseCat1 = new HouseCat("Phil", "Its a house cat", 2, "Tabby", "House");
 
             pet1.Walk(pet1.Name);
-            Console.WriteLine("Name: " + pet1.Name + "\nDescription: " + pet1.Description + "\nAge: " + pet1.Age);
+            Console.WriteLine("Name: " + pet1.Name + 
+                              "\nDescription: " + pet1.Description + 
+                              "\nAge: " + pet1.Age);
 
             Console.WriteLine();
 
             // Subclass of pet
             dog1.Bark();
             dog1.Walk(dog1.Name);
-            Console.WriteLine("Name: " + dog1.Name + "\nDescription: " + dog1.Description + "\nAge: " + dog1.Age + "\nBreed: " + dog1.Breed);
+            Console.WriteLine("Name: " + dog1.Name + 
+                              "\nDescription: " + dog1.Description + 
+                              "\nAge: " + dog1.Age + 
+                              "\nBreed: " + dog1.Breed);
 
             Console.WriteLine();
 
             // Subclass of pet
             cat1.Meow();
             cat1.Walk(cat1.Name);
-            Console.WriteLine("Name: " + cat1.Name + "\nDescription: " + cat1.Description + "\nAge: " + cat1.Age + "\nVariation: " + cat1.Variation);
+            Console.WriteLine("Name: " + cat1.Name + 
+                              "\nDescription: " + cat1.Description + 
+                              "\nAge: " + cat1.Age + 
+                              "\nVariation: " + cat1.Variation);
 
             Console.WriteLine();
 
@@ -32,7 +40,11 @@
             houseCat1.Meow();
             houseCat1.Walk(houseCat1.Name);
             houseCat1.LivingLocation();
-            Console.WriteLine("Name: " + houseCat1.Name + "\nDescription: " + houseCat1.Description + "\nAge: " + houseCat1.Age + "\nVariation: " + houseCat1.Variation);
+            Console.WriteLine("Name: " + houseCat1.Name + 
+                                "\nDescription: " + houseCat1.Description + 
+                                "\nAge: " + houseCat1.Age + 
+                                "\nVariation: " + houseCat1.Variation + 
+                                "\nLocation: " + houseCat1.Location);
         }
     }
 }
